@@ -17,7 +17,7 @@ const App=()=>{
 
     return(
         <div className="calc">
-        <h1>My Calculator</h1>
+        <h1>My Calculator created </h1>
         <input type="text" placeholder="0" value={result} id="answer"/>
         <input type="button" value="9" className="button" onClick={clickHandler}/>
         <input type="button" value="8" className="button" onClick={clickHandler} />
